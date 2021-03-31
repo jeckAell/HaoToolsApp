@@ -1,0 +1,9 @@
+spring:
+  application:
+    # 应用名称
+    name: jecktao
+  profiles:
+    active: dev
+
+server:
+  port: 8980

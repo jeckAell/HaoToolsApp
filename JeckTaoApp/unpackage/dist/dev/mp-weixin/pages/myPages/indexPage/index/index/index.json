@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "好工具",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-link": "/components/uLink"
+  }
+}

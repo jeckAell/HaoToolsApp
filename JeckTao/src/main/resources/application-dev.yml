@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    name: defaultDataSource
+    url: jdbc:mysql://localhost:3306/jeck_tao?serverTimezone=UTC
+    username: taoshuai
+    password: TaotaoBuJue88
+    driver-class-name: com.mysql.jdbc.Driver
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
