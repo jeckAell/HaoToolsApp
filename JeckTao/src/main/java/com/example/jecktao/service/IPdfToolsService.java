@@ -1,11 +1,12 @@
 package com.example.jecktao.service;
 
-import java.io.File;
-import java.io.IOException;
+import org.springframework.web.multipart.MultipartFile;
+
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * pdf 转换工具服务接口
  */
 public interface IPdfToolsService {
-    void PdfToWord(String  srcPath) throws IOException;
+    String PdfToWord(MultipartFile file, HttpServletResponse response);
 }
