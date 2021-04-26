@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/myPages/indexPage/index/index/index",
+    "pages/myPages/pdfToWord/index/index",
     "pages/tabBar/component/component",
     "pages/tabBar/API/API",
     "pages/tabBar/template/template",
@@ -188,6 +189,12 @@
       }
     ]
   },
+  "networkTimeout": {
+    "request": 30000,
+    "connectSocket": 30000,
+    "uploadFile": 30000,
+    "downloadFile": 30000
+  },
   "permission": {
     "scope.userLocation": {
       "desc": "演示定位能力"
@@ -197,6 +204,5 @@
     "page-head": "/components/page-head",
     "page-foot": "/components/page-foot",
     "u-link": "/components/uLink"
-  },
-  "sitemapLocation": "sitemap41.json"
+  }
 }

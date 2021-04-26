@@ -135,7 +135,7 @@
 	  .choose-file {
 		  margin-top: 10px;
 		  width: 50%;
-		  background-color: #99CCFF;
+		  background-color: #00adb5;
 	  }
 	  .file-text {
 		  color: #2d2d2d;
@@ -155,7 +155,7 @@
 		  position: fixed;
 		  bottom: 0;
 		  width: 100%;
-		  background-color: #99CCFF;
+		  background-color: #00adb5;
 	  }
   }
 </style>

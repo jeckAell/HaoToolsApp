@@ -29,7 +29,9 @@ public class PdfToolsServiceImpl implements IPdfToolsService {
                 PdfDocument pdf = new PdfDocument();
                 pdf.loadFromFile(srcPath);
                 PdfPageCollection num = pdf.getPages();
-
+                if (num.getCount() > 10) {
+                    JeckTaoExecption.throwExecption("-1", "sorry，pdf大于10页我不想法解析");
+                }
                 pdf.saveToFile(desPath, com.spire.pdf.FileFormat.DOCX);
             } else {
                 JeckTaoExecption.throwExecption("-1", "输入的不是pdf文件");

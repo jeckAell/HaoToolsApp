@@ -801,7 +801,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"VUE_APP_NAME":"JeckTaoApp","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_NAME":"JeckTaoApp","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -1857,10 +1857,10 @@ function normalizeComponent (
 
 /***/ }),
 
-/***/ 1003:
-/*!*******************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/common/graceChecker.js ***!
-  \*******************************************************/
+/***/ 1011:
+/*!*******************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/common/graceChecker.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1964,9 +1964,9 @@ module.exports = {
 /***/ }),
 
 /***/ 11:
-/*!***********************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/store/index.js ***!
-  \***********************************************/
+/*!***********************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/store/index.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2038,10 +2038,21 @@ store;exports.default = _default;
 
 /***/ }),
 
-/***/ 1195:
-/*!***********************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/uni-swipe-action/mpother.js ***!
-  \***********************************************************************/
+/***/ 12:
+/*!**********************************************************!*\
+  !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! regenerator-runtime */ 13);
+
+/***/ }),
+
+/***/ 1203:
+/*!***********************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/uni-swipe-action/mpother.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2182,10 +2193,10 @@ store;exports.default = _default;
 
 /***/ }),
 
-/***/ 1196:
-/*!******************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/uni-swipe-action/mp.js ***!
-  \******************************************************************/
+/***/ 1204:
+/*!******************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/uni-swipe-action/mp.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2281,21 +2292,10 @@ store;exports.default = _default;
 
 /***/ }),
 
-/***/ 12:
-/*!**********************************************************!*\
-  !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! regenerator-runtime */ 13);
-
-/***/ }),
-
-/***/ 1213:
-/*!********************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/uni-calendar/calendar.js ***!
-  \********************************************************************/
+/***/ 1221:
+/*!********************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/uni-calendar/calendar.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2849,10 +2849,10 @@ calendar;exports.default = _default;
 
 /***/ }),
 
-/***/ 1256:
-/*!************************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/uParse/src/libs/html2json.js ***!
-  \************************************************************************/
+/***/ 1264:
+/*!************************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/uParse/src/libs/html2json.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2871,8 +2871,8 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
-var _wxDiscode = _interopRequireDefault(__webpack_require__(/*! ./wxDiscode */ 1257));
-var _htmlparser = _interopRequireDefault(__webpack_require__(/*! ./htmlparser */ 1258));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} /**
+var _wxDiscode = _interopRequireDefault(__webpack_require__(/*! ./wxDiscode */ 1265));
+var _htmlparser = _interopRequireDefault(__webpack_require__(/*! ./htmlparser */ 1266));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} /**
                                                                                                                                                                  * html2Json 改造来自: https://github.com/Jxck/html2json
                                                                                                                                                                  *
                                                                                                                                                                  *
@@ -3121,10 +3121,10 @@ html2json;exports.default = _default;
 
 /***/ }),
 
-/***/ 1257:
-/*!************************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/uParse/src/libs/wxDiscode.js ***!
-  \************************************************************************/
+/***/ 1265:
+/*!************************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/uParse/src/libs/wxDiscode.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3326,10 +3326,10 @@ function urlToHttpUrl(url, domain) {
 
 /***/ }),
 
-/***/ 1258:
-/*!*************************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/uParse/src/libs/htmlparser.js ***!
-  \*************************************************************************/
+/***/ 1266:
+/*!*************************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/uParse/src/libs/htmlparser.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3493,10 +3493,10 @@ HTMLParser;exports.default = _default;
 
 /***/ }),
 
-/***/ 1264:
-/*!***************************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/mpvueGestureLock/gestureLock.js ***!
-  \***************************************************************************/
+/***/ 1272:
+/*!***************************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/mpvueGestureLock/gestureLock.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3679,10 +3679,10 @@ GestureLock;exports.default = _default;
 
 /***/ }),
 
-/***/ 1279:
-/*!**********************************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/mpvue-citypicker/city-data/province.js ***!
-  \**********************************************************************************/
+/***/ 1287:
+/*!**********************************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/mpvue-citypicker/city-data/province.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3829,10 +3829,10 @@ provinceData;exports.default = _default;
 
 /***/ }),
 
-/***/ 1280:
-/*!******************************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/mpvue-citypicker/city-data/city.js ***!
-  \******************************************************************************/
+/***/ 1288:
+/*!******************************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/mpvue-citypicker/city-data/city.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5343,10 +5343,10 @@ cityData;exports.default = _default;
 
 /***/ }),
 
-/***/ 1281:
-/*!******************************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/mpvue-citypicker/city-data/area.js ***!
-  \******************************************************************************/
+/***/ 1289:
+/*!******************************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/mpvue-citypicker/city-data/area.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25315,7 +25315,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"VUE_APP_NAME":"JeckTaoApp","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"NODE_ENV":"development","VUE_APP_NAME":"JeckTaoApp","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -25336,14 +25336,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"VUE_APP_NAME":"JeckTaoApp","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_NAME":"JeckTaoApp","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"VUE_APP_NAME":"JeckTaoApp","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_NAME":"JeckTaoApp","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -25429,7 +25429,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = this.$shouldDiffData === false ? data : diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"VUE_APP_NAME":"JeckTaoApp","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_NAME":"JeckTaoApp","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -25837,9 +25837,9 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 22:
-/*!**************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/untils/request.js ***!
-  \**************************************************/
+/*!**************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/untils/request.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25964,9 +25964,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 4:
-/*!*******************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/pages.json ***!
-  \*******************************************/
+/*!*******************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/pages.json ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -25974,10 +25974,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 441:
-/*!*****************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/common/permission.js ***!
-  \*****************************************************/
+/***/ 449:
+/*!*****************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/common/permission.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26243,10 +26243,10 @@ module.exports = permission;
 
 /***/ }),
 
-/***/ 486:
-/*!***********************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/common/util.js ***!
-  \***********************************************/
+/***/ 494:
+/*!***********************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/common/util.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -26325,10 +26325,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ 791:
-/*!**************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/common/airport.js ***!
-  \**************************************************/
+/***/ 799:
+/*!**************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/common/airport.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -26594,21 +26594,21 @@ module.exports = {
 
 /***/ }),
 
-/***/ 838:
-/*!***********************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/marked/index.js ***!
-  \***********************************************************/
+/***/ 846:
+/*!***********************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/marked/index.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./lib/marked */ 839);
+module.exports = __webpack_require__(/*! ./lib/marked */ 847);
 
 /***/ }),
 
-/***/ 839:
-/*!****************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/marked/lib/marked.js ***!
-  \****************************************************************/
+/***/ 847:
+/*!****************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/marked/lib/marked.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28181,14 +28181,14 @@ module.exports = __webpack_require__(/*! ./lib/marked */ 839);
     module.exports = marked;
   } else {}
 })(this || (typeof window !== 'undefined' ? window : global));
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/global.js */ 3)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/global.js */ 3)))
 
 /***/ }),
 
-/***/ 856:
-/*!****************************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/components/u-charts/u-charts.js ***!
-  \****************************************************************/
+/***/ 864:
+/*!****************************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/components/u-charts/u-charts.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33243,10 +33243,10 @@ if ( true && typeof module.exports === "object") {
 
 /***/ }),
 
-/***/ 877:
-/*!****************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/common/city.data.js ***!
-  \****************************************************/
+/***/ 885:
+/*!****************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/common/city.data.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33255,10 +33255,10 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 
-/***/ 906:
-/*!******************************************************!*\
-  !*** D:/工作/涛帅的秘密基地/JeckTaoApp/common/html-parser.js ***!
-  \******************************************************/
+/***/ 914:
+/*!******************************************************************!*\
+  !*** D:/工作/涛帅的秘密基地/HaoToolsApp/JeckTaoApp/common/html-parser.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

@@ -29,6 +29,18 @@
 		    
 		},
 		// #endif
+		{
+		    "path" : "pages/myPages/pdfToWord/index/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "PDF转WORD",
+		        "enablePullDownRefresh": true,
+				"app-plus": {
+					
+				}
+		    }
+		    
+		},
         {
             "path": "pages/tabBar/component/component",
             "style": {

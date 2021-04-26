@@ -39,5 +39,6 @@ public class Tools {
     @ApiModelProperty("图标路径")
     private String icon;
 
-
+    @ApiModelProperty("支持的平台")
+    private String platforms;
 }
