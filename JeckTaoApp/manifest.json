@@ -122,6 +122,19 @@
                     "key" : ""
                 }
             }
-        }
+        },
+		"devServer": {
+			"disableHostCheck": true, 
+			"proxy": {
+				"/api": {
+					"target": "http://localhost:8980",
+					"changeOrigin": true,
+					"secure": false,
+					"pathRewrite": {
+						"^/api": "/"
+					}
+				}
+			}
+		}
     }
 }

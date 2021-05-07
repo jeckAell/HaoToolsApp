@@ -14,5 +14,9 @@
     },
     "dependencies": {
         "heic2any": "0.0.3"
+    },
+    "devDependencies": {
+        "axios": "^0.21.1",
+        "vant": "^2.12.16"
     }
 }

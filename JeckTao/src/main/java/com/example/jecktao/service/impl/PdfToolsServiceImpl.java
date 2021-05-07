@@ -38,7 +38,6 @@ public class PdfToolsServiceImpl implements IPdfToolsService {
 
                 // 转换后的文件存放路径
                 String desPath = srcPath.substring(0, srcPath.length()-4)+".docx";
-                boolean result = false;
                 try {
                     // 0、判断输入的是否是pdf文件
                     //第一步：判断输入的是否合法

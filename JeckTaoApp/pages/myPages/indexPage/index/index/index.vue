@@ -81,7 +81,7 @@
 			}
 		},
 		created() {
-			http('http://localhost:8980/jecktao/tools/queryAll').then(res => {
+			http('/api/jecktao/tools/queryAll').then(res => {
 				this.appToolDatas = []
 				this.h5ToolDatas = []
 				res.data.forEach(item => {

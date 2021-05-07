@@ -3,10 +3,7 @@ package com.example.jecktao.controller;
 import com.example.jecktao.service.IPdfToolsService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
@@ -18,8 +15,9 @@ public class PdfToolsController {
     private IPdfToolsService pdfToolsService;
 
     @ApiOperation("pdf转word")
+    @ResponseBody
     @PostMapping("/pdfToword")
-    public String pdfToword(@RequestParam("file") MultipartFile file, HttpServletResponse response) {
-        return pdfToolsService.PdfToWord(file, response);
+    public void pdfToword(@RequestParam("file") MultipartFile file, HttpServletResponse response) {
+        pdfToolsService.PdfToWord(file, response);
     }
 }
